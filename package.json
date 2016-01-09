@@ -1,0 +1,26 @@
+{
+  "name": "webpack-tutorial",
+  "version": "1.0.0",
+  "description": "Webpack tutorial files",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --output-public-path=/build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dhalsim/webpack-tutorial"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Barış Aydek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhalsim/webpack-tutorial/issues"
+  },
+  "homepage": "https://github.com/dhalsim/webpack-tutorial",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
+  }
+}
