@@ -16,17 +16,13 @@ module.exports = {
     inline: true
   },
   module: {
-  	loaders: [
-  		{
+    loaders: [
+      {
         loader: 'babel-loader',
-  			test: /\.js$/,
-        include: [
-          path.resolve(__dirname, 'js')
-        ]
-  		}
-  	]
+        test: /\.js$/,
+        include: [path.resolve(__dirname, 'js')]
+      }
+    ]
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ]
+  plugins: [new webpack.HotModuleReplacementPlugin()]
 };
